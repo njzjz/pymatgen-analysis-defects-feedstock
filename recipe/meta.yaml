@@ -1,5 +1,5 @@
 {% set name = "pymatgen-analysis-defects" %}
-{% set version = "2022.12.16" %}
+{% set version = "2022.12.20" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b62b8e00e51d30b622468154c970bcfa5797f4a364610c9da22ae5d2ed1e140e
+  sha256: 58dfa1c9898436472426854a6103e5ac1b5a6127593d94a74a9cb4cef535f7e2
 
 build:
   number: 0
