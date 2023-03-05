@@ -1,11 +1,11 @@
-About pymatgen-analysis-defects
-===============================
+About pymatgen-analysis-defects-feedstock
+=========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymatgen-analysis-defects-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/materialsproject/pymatgen-analysis-defects
 
 Package license: BSD-3-Clause-LBNL
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymatgen-analysis-defects-feedstock/blob/main/LICENSE.txt)
 
 Summary: Defect analysis modules for pymatgen
 
