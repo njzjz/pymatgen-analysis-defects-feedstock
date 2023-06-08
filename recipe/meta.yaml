@@ -10,7 +10,7 @@ source:
   sha256: 0ce1b6161d3c7015e9477ff2edb5431da0eb5d90308bb1d24124f4e1ad14366a
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -22,12 +22,14 @@ requirements:
     - versioningit
   run:
     - python >=3.8
-    - pymatgen >=2022.10.22
+    - pymatgen >=2023.5.8
     - scikit-image >=0.19.3
+    - mp-pyrho >=0.3.0
 
 test:
   imports:
     - pymatgen.analysis.defects
+    - pymatgen.analysis.defects.core
 
 about:
   home: https://github.com/materialsproject/pymatgen-analysis-defects
